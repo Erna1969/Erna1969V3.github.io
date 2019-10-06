@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta charset="utf-8" /> 
+<style>
+  body {background-color:#fff7cc}
+ 
+body {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+.header {
+  
+  background-color: #ffd700;
+  grid-area: header;
+  padding: 10px;
+  text-align: center;
+  border:1px solid black
+  
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-areas: 
+    'header header header header header header' 
+    'nav nav nav nav nav nav'
+    'left left middle middle right right' 
+    'footer footer footer footer footer footer';
+  
+} 
+
+.left,
+.middle,
+.right {
+  padding: 10px;
+  height: 400px; 
+}
+
+.nav{
+   grid-area: nav;
+ display: flex;
+ flex-flow: row; 
+ justify-content: space-around;
+ padding: 0;
+ list-style-type: none;
+ background-color: 	#B8860B;
+ border: 1px solid black
+}
+
+
+.left {
+  
+  grid-area: left;
+  text-align: justify;
+  border:1px solid black
+}
+
+
+.middle {
+  grid-area: middle;
+  text-align: justify;
+  background-color: antiquewhite;
+  border: 1px solid black
+}
+
+
+.right {
+  width: 200px;  
+  grid-area: right;
+  text-align: justify;
+  background-color: blanchedalmond;
+  border: 1px solid black
+}
+
+
+.footer {
+  grid-area: footer;
+  display: flex;
+  flex-flow: row;  /* ath*/
+  justify-content: space-around;
+  padding: 0;
+  list-style-type: none;
+  background-color: 		#B8860B;
+  border: 1px solid black
+}
+
+  span.center {
+  display: block;
+  margin: 1em auto;
+  width: 400px;
+  height: 50px;
+  padding: 3px;
+  text-align: left;
+  border: 1px solid black    
+  }
+
+  
+
+@media (max-width: 600px) {
+  .grid-container  {
+    grid-template-areas: 
+      'header header header header header header'
+      'nav nav nav nav nav nav' 
+      'left left left left left left' 
+      'middle middle middle middle middle middle' 
+      'right right right right right right' 
+      'footer footer footer footer footer footer';
+  }
+}
+</style>
+</head>
+<body>
+<div class="grid-container">
+  <div class="header">
+        <font size="800"> <p style="color:brown"><em>Letur- og litafræði</em></p></font>
+     <a href="https://www.w3schools.com/cssref/css_websafe_fonts.asp"><p style="color:brown">Kerfisletur-System</a></p>
+  </div>
+  
+  <div class="nav"
+      <p ><a href="https://www.w3schools.com/html/" style="color:white">Tengill 1</a></style>
+
+      <a href="https://www.w3schools.com/cssref/css_colors.asp" style="color:white">Tengill 2</a></style>
+
+      <a href="https://www.w3schools.com/cssref/pr_text_text-align.asp" style="color:white" >Tengill 3</a></style>
+
+      <a href="https://www.w3schools.com/cssref/css_colors.asp"style="color:white">Tengill 4</a></style>
+
+      <a href="https://www.w3schools.com/cssref/css_colors.asp"style="color:white">Tengill 5</p></a></style>
+      
+
+      </div>
+  <div class="right" ><p><strong>Litafræði</strong></p>Litir eru í raun hluti af rafsegulrófinu. Aðeins lítill hluti af því, litrófið er sýnilegt. Hver litur hefur sína bylgjulengd og mannlegt auga getur einungis greint bylgjulengdir frá um það bil 400 til 700 nanómetrar. Bylgjulengdin er í sjálfu sér ekki litur. Liturinn verður til í heilanum og auganu. 
+    <p><b><a href="http://vefir.multimedia.is/hafdis/lit/ljos%20og%20litir.htm">Allt um litafræði</a></b></p>
+  </div>
+  <div class="middle"><p><strong>Leturfræði</p></strong>Leturfræði eða týpógrafía (úr grísku τύπος (typos) „form“ og γραφή (graphy) „skrift“) er prentlist þar sem lögð er áhersla á notkun leturs. Ýmislegar leturgerðir eru til, það er að segja söfn bókstafa sem hafa sömu hönnun. </span></p>
+    <p><span class="center">Orðið fontur á við tilbrigði leturgerðar, eins og skáletrað eða feitletrað. Leturgerð má vera með ýmislegum fontum.</p>
+        Með komu tölvunnar hefur leturfræði mikið breyst, áður en hún var kynnt til sögunnar var leturfræði fag útlærðra starfsmanna. Í dag með ritvinnslu- og hönnunarforriti er orðið mun auðveldara að búa til prentuðum textum. Samt sem áður er leturfræði stundum ennþá talin fagkunnátta. Saga leturfræði er nátengd sögu prentunar.  
+  <p><strong>Leturgerð</strong></p>Leturgerð eða stafagerð er í leturfræði safn bókstafa og tákna sem hafa sömu hönnun. Ýmislegar leturgerðaflokkanir eru til en helstu eru þverendaletur og steinskrift. Þverendar kallast þau litlu strik á endum stafs. <p>
+      <P><b><a href="https://is.wikipedia.org/wiki/Leturger%C3%B0">Heimild: Wikipedia - leturfræði</p></a></b></p>
+    </div>
+  
+  <div class="footer"
+      <p><a href="https://fonts.google.com/" style="color:white">Google fonts</a></style>
+
+      <a href="https://www.w3schools.com/cssref/css_websafe_fonts.asp/" style="color:white">Kerfisletur-System fonts</a></style>
+
+      <a href="https://www.w3schools.com/cssref/css_colors.asp/" style="color:white">Litaval</a></style>
+
+      <a href="https://tskoli.is/mannaudur/?leit=guðmundur%20jón%20guðjónsson&staffcat=Upplýsingatækniskólinn" style="color:white">©2019 GJG</a></b></p></style>
+
+  </div>
+</div>
+
+</body>
+</html>

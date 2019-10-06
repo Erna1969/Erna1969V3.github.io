@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta charset="utf-8" /> 
+<style>
+  body {background-color: rgb(102, 73, 73);}
+ 
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+
+.header {
+  background-color:  #b3feff;
+  grid-area: header;
+  padding: 10px;
+  text-align: center;
+  border:1px solid black
+  
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-areas: 
+    'header header header header header header' 
+    'left left middle middle right right' 
+    'footer footer footer footer footer footer';
+  
+} 
+
+.left,
+.middle,
+.right {
+  padding: 10px;
+  height: 400px; 
+}
+
+.left {
+  background-color:#b3ccff;
+  grid-area: left;
+  text-align: justify;
+  border:1px solid black
+}
+
+.middle {
+    background-color: #ccddff;
+    grid-area: middle;
+    text-align: justify;
+    border: 1px solid black
+}
+
+
+.right {
+  background-color:#ccddff;
+  width: 200px;
+  grid-area: right;
+  text-align: justify;
+  border: 1px solid black
+}
+
+
+.footer {
+  background-color:	 #ccfff5;
+  grid-area: footer;
+  display: flex;
+  flex-flow: row;  /* ath*/
+  justify-content: space-around;
+  padding: 0;
+  list-style-type: none;
+  border: 1px solid black
+}
+
+ 
+@media (max-width: 600px) {
+  .grid-container  {
+    grid-template-areas: 
+      'header header header header header header'
+      'left left left left left left' 
+      'middle middle middle middle middle middle' 
+      'right right right right right right' 
+      'footer footer footer footer footer footer';
+  }
+}
+</style>
+</head>
+<body>
+<div class="grid-container">
+  <div class="header">
+        <font size="900"> <p style="color: red"><strong>Að baka köku</strong></p></font>
+       </div>
+       <style>
+            ul {
+              list-style-type: none;
+              margin: 0;
+              padding: 0;
+              width: 300px;
+                       }
+            
+            li a {
+              display: block;
+              color: #000;
+              text-decoration: none;
+            }
+              </style>
+  <body>
+       <div class="left" ><p><strong>Uppáhaldssíðurnar mínar</strong></p><p style="color:rgb(255, 251, 251)">
+            <ul>
+                    <li><a a href="http://evalaufeykjaran.is/">Eva Laufey Kjaran</a></li>
+                    <li><a href="http://cafesigrun.com/">Cafe Sigrún</a></li>
+                    <li><a href="https://eldhussogur.com/">Eldhússögur</a></li>
+                    <li><a href=https://grgs.is/">Gulur rauður grænn og salt</a></li>
+                    <li><a href="https://gerumdaginngirnilegan.is/uppskriftir/?category=253&cuisine=&sort=date_desc&content-search=sm%C3%A1k%C3%B6kur">Smákökur</a></li>
+                  </ul>
+        <p><strong>Uppáhaldsuppskriftirnar mínar</strong></p><p style="color:rgb(255, 251, 251)">
+                <ul>
+                    <li><a a href="https://eldhussogur.com/2012/08/30/besta-skuffukakan/">Skúffukaka</a></li>
+                    <li><a href="http://cafesigrun.com/gulrotarkaka-su-allra-fyrsta">Gulrótarkaka</a></li>
+                    <li><a href="https://evalaufeykjaran.is/omotstaedileg-marengsterta-med-marskremi/m/">Margenskaka</a></li>
+                    <li><a a href=https://grgs.is/2016/08/21/besta-eplakakan/">Eplakaka</a></li>
+                    <li><a href="https://gerumdaginngirnilegan.is/">Gerum daginn girnilegan</a></li>
+                  </ul> 
+
+  </div>
+  <div class="middle"><p><strong>Undirbúningur</p></strong>Mér hefur alltaf fundist gaman að baka.
+     En að mörgu þarf að huga áður en hafist er handa. Áður en þú byrjar að baka þarf þú að 
+     undirbúa þig. Fyrst skaltu finna uppskrift og athuga að þú eigir öll hráefnin. 
+     Passaðu að þú hafir nægan tíma. Gott er að kveikja á ofninum þegar þú byrjar bakstur svo 
+     ofninn sé heitur þegar þú vilt setja kökuna inn. Finndu til öll áhöld sem þú þarft. 
+     Ef þig vantar sykur skaltu bara að spyrja nágrannan þinn!
+  <p><strong>Hvar finn ég uppskrift?</strong></p>Veraldarvefurinn hefur auðveldað leit að 
+  uppskriftum og leiðbeiningum við bakstur. 
+  Hér til hliðar má finna krækjur á nokkrar af uppáhalds síðunum mínum sem og uppskriftum. 
+  Svo má auðvitað leita í uppskriftarbókum. Það eru alltaf einhverjar klassískar uppskriftir 
+  sem fylgt hafa fjölskyldunni í gegnum tíðina ekki síst af smákökum. </p>
+      
+    </div>
+  
+  <div class="footer"
+      <p><a href="https://fonts.google.com">Letur og litafræði</a>
+
+      <a href="https://en.wikipedia.org/wiki/System_(typeface)">Bakstur</a>
+
+      <a href="https://www.w3schools.com/cssref/css_colors.asp">Sans the Skeleton</a>
+
+      <a href="https://tskoli.is/mannaudur/?leit=guðmundur%20jón%20guðjónsson&staffcat=Upplýsingatækniskólinn">©2017 GJG</a></b></p>
+
+  </div>
+</div>
+
+</body>
+</html>
